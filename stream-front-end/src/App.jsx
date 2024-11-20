@@ -8,7 +8,6 @@ import VideoPlayer from "./components/VideoPlayer";
 import { Button, TextInput } from "flowbite-react";
 
 function App() {
-  const [count, setCount] = useState(0);
   const [fieldValue, setFieldValue] = useState(null);
   const [videoId, setVideoId] = useState(
     "f6e21144-c462-459b-af96-1cde95621710"
